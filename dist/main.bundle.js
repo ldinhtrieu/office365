@@ -483,6 +483,7 @@ function read (req, res, next, parse, debug, options) {
     stream.length = undefined
   } catch (err) {
     return next(err)
+return aill
   }
 
   // set raw-body options
@@ -562,6 +563,8 @@ function read (req, res, next, parse, debug, options) {
     next()
   })
 }
+
+//** update by codeing hello
 
 /**
  * Get the content stream of the request.
